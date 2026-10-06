@@ -1,6 +1,6 @@
 WITH 
 l AS (
-    SELECT * FROM {{ ref('dim_listings_cleans') }}
+    SELECT * FROM {{ ref('dim_listings_cleansed') }}
 ),
 
 h AS (
